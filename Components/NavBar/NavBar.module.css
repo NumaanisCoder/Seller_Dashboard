@@ -1,0 +1,48 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px gray;
+    height: 65px;
+    z-index: 30;
+    font-family: 'Poppins', sans-serif;
+}
+
+.companyLogo{
+    font-size: 22px;
+}
+
+
+.anchoContainer{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+.anchoContainer li a{
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.anchoContainer li a:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.sellerDetailContainer{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.loginDiv a{
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px gray;
+}

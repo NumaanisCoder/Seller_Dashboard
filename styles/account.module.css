@@ -1,0 +1,33 @@
+.parent{
+display: flex;
+flex-direction: column;
+flex: 1;
+background-color: #f2f2f2;
+height: calc(100vh - 65px);
+overflow-y: auto;
+}
+
+.infoContainer{
+    margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 10px 15px;
+
+}
+
+.singleDetail{
+    font-size: 30px;
+display: flex;
+gap: 10px;
+align-items: center;
+background-color: rgb(68, 238, 6);
+padding: 5px 10px;
+width: fit-content;
+border-radius: 10px;
+}
+.singleDetail > span{
+background-color: white;
+padding: 5px 10px;
+border-radius: 10px;
+}

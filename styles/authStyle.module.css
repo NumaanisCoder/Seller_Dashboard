@@ -1,0 +1,77 @@
+.container{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: calc(100vh - 65px);
+    overflow-y: auto;
+}
+
+
+
+
+
+
+.form{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #d1d1d1;
+    
+}
+.form h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.formGroup > label{
+    font-weight: 700;
+}
+.formGroup > input{
+    height: 45px;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 2px solid #d1d1d1;
+}
+.formGroup > button{
+    font-size: 20px;
+    max-width: fit-content;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    border: 1px solid white;
+    transition: all .3s ease-in-out;
+}
+.formGroup >button:hover{
+    filter: invert();
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.navigatorContainer{
+    margin-bottom: 100px;
+}
+
+.navigatorContainer > a{
+    padding: 10px 15px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+}

@@ -1,0 +1,80 @@
+.container {
+    flex: 1;
+    padding: 20px 10px;
+    height: calc(100vh - 65px);
+    overflow-y: auto;
+    background-color: #fcfcfc;
+}
+
+/* Scrollbar width */
+.container::-webkit-scrollbar {
+    width: 8px;
+    /* Change this value for thickness */
+}
+
+/* Track (background) */
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Change track background color */
+}
+
+/* Thumb (the draggable part) */
+.container::-webkit-scrollbar-thumb {
+    background: #002077;
+    /* Change thumb color */
+    border-radius: 10px;
+    /* Optional: Rounded corners */
+}
+
+/* Thumb hover effect */
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Change thumb color when hovered */
+}
+
+.headContainer {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    color: #333;
+    width: 100%;
+    /* Ensure it takes the full width */
+}
+
+.container table {
+    width: 100%;
+    /* Add this line to ensure the table takes full width */
+    border-collapse: collapse;
+    /* Optional: for cleaner borders */
+}
+
+.no {
+    text-align: left;
+    width: 5%;
+}
+
+.name {
+    min-width: 30%;
+}
+
+.image {
+    min-width: 30%;
+}
+
+.stock {
+    text-align: left;
+    min-width: 15%;
+}
+
+.price {
+    text-align: left;
+    min-width: 10%;
+}
+
+.more {
+    min-width: 10%;
+}

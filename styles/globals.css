@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -8,7 +8,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
+ /* Inside styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 html,
 body {
@@ -17,6 +20,7 @@ body {
 }
 
 body {
+  
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
@@ -35,8 +39,18 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+} */
+
+
+
+
+
+.content {
+  font-family: 'Poppins', sans-serif;
+    flex: 1; /* Take up the remaining space on the right */
+  /* Add padding for some spacing */
 }
